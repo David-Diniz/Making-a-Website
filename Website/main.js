@@ -2,7 +2,10 @@ console.log("Hello World!")
 
 
 function doSomething() {
-    alert('did a thing!')
+    alert('Did you see the change?')
+    var mydiv = document.getElementById("thing")
+    mydiv.innerText = "This String should appear only after a button press"
+    console.log(mydiv)
 }
 
 // function main(){
