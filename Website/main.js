@@ -2,10 +2,10 @@ console.log("Hello World!")
 
 
 function doSomething() {
-    alert('Did you see the change?')
-    var mydiv = document.getElementById("thing")
-    mydiv.innerText = "This String should appear only after a button press"
-    console.log(mydiv)
+    var text = document.getElementById("textField")
+    text.style.display = "block"
+    confirm('Click ok to change something on screen')
+    confirm('Did you see the change?')
 }
 
 // function main(){
